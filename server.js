@@ -9,7 +9,7 @@ require('dotenv').config({
   silent: true
 });
 var app = express();
-mongo.MongoClient.connect(process.env.MONGOLAB_URI || 'mongodb://heroku_h9gx644f:iuggcpdfdfnahlkmqmhjh305k6@ds049476.mlab.com:49476/heroku_h9gx644f', function(err, db) {
+mongo.MongoClient.connect(process.env.MONGOLAB_URI || 'mongodb://heroku_57ppvxdf:3a9t1njifnorl25vi5tsipa4j1@ds049486.mlab.com:49486/heroku_57ppvxdf', function(err, db) {
 
   if (err) {
     throw new Error('Database failed to connect!');
